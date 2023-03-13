@@ -18,10 +18,14 @@
 
   <link rel="manifest" href="{{ url_for('static', path='/site.webmanifest') }}">
   <meta name="theme-color" content="#fafafa">
+
+  <link href="{{ url_for('static', path='/styles-min.css') }}" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Contest {{ id }}</h1>
+  <div class="p-20">
+    <h1 class="text-2xl font-semibold text-cyan-800">Contest {{ id }}</h1>
+  </div>
 </body>
 
 </html>

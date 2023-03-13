@@ -162,3 +162,5 @@ cython_debug/
 .python-version
 
 .space
+
+tailwindcss
